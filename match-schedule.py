@@ -11,7 +11,7 @@ def schedule_matches(num_teams):
         matches.append((teams[-1], "Bye"))
     return matches
 
-num_teams = 13
+num_teams = 10
 match_schedule = schedule_matches(num_teams)
 print("Tournament Matches")
 for match in match_schedule:
